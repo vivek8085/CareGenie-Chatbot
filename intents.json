@@ -1,0 +1,210 @@
+[
+    {
+        "tag": "appointment_booking",
+        "patterns": [
+            "I want to book an appointment",
+            "Schedule a doctor visit",
+            "Can I book a consultation?"
+        ],
+        "responses": [
+            "Sure, which department or doctor would you like to book with?",
+            "When would you prefer the appointment?"
+        ]
+    },
+    {
+        "tag": "doctor_availability",
+        "patterns": [
+            "Is Dr.Sudarshan available?",
+            "When can I see a cardiologist?",
+            "Doctor schedule"
+        ],
+        "responses": [
+            "Dr. Gupta is available on Mon-Sat. Would you like to book an appointment?",
+            "Our cardiologists are available on Mon And Wed."
+        ]
+    },
+    {
+        "tag": "emergency_services",
+        "patterns": [
+            "What are your emergency services?",
+            "How to contact ER?",
+            "Is the emergency room open?"
+        ],
+        "responses": [
+            "Our emergency services are available 24/7. Please call 1245896545 or visit the hospital."
+        ]
+    },
+    {
+        "tag": "patient_admission",
+        "patterns": [
+            "How can I get admitted?",
+            "What is the procedure for admission?",
+            "I need inpatient services."
+        ],
+        "responses": [
+            "For admission, please visit our reception with valid ID and medical records. You can also pre-book online."
+        ]
+    },
+    {
+        "tag": "lab_test_booking",
+        "patterns": [
+            "I need a blood test",
+            "How to book lab tests?",
+            "Available tests and timings"
+        ],
+        "responses": [
+            "You can book lab tests online or at the hospital. Please specify the test and preferred date."
+        ]
+    },
+    {
+        "tag": "medical_records",
+        "patterns": [
+            "How can I access my medical records?",
+            "Request for past reports",
+            "Retrieve test results"
+        ],
+        "responses": [
+            "You can access your medical records via our patient portal or by visiting the hospital records department."
+        ]
+    },
+    {
+        "tag": "billing_information",
+        "patterns": [
+            "What are your payment methods?",
+            "Explain the billing process",
+            "How much will it cost?"
+        ],
+        "responses": [
+            "We accept cash, card, and digital payments. Detailed billing information will be shared post-service."
+        ]
+    },
+    {
+        "tag": "facilities_and_services",
+        "patterns": [
+            "What facilities do you offer?",
+            "Services in the hospital",
+            "Is there an ICU available?"
+        ],
+        "responses": [
+            "We provide comprehensive services, including ICU, pharmacy, diagnostics, and more. How can I assist further?"
+        ]
+    },
+    {
+        "tag": "visiting_hours",
+        "patterns": [
+            "What are the visiting hours?",
+            "Can I visit a patient now?",
+            "Rules for visiting patients"
+        ],
+        "responses": [
+            "Our visiting hours are 5am to 12pm. Please adhere to hospital policies during your visit."
+        ]
+    },
+    {
+        "tag": "feedback_and_complaints",
+        "patterns": [
+            "I have feedback",
+            "Where to lodge a complaint?",
+            "How can I share my experience?"
+        ],
+        "responses": [
+            "We value your feedback. Please use our online form or visit the customer service desk to share your thoughts."
+        ]
+    },
+    {
+        "tag": "pharmacy_services",
+        "patterns": [
+            "Do you have a pharmacy?",
+            "Can I buy medicines here?",
+            "Pharmacy timings"
+        ],
+        "responses": [
+            "Yes, we have an in-house pharmacy available from Mon-sat. How can I assist further?",
+            "Our pharmacy provides all essential medicines. Please visit during working hours."
+        ]
+    },
+    {
+        "tag": "health_packages",
+        "patterns": [
+            "Do you offer health check-up packages?",
+            "What health plans are available?",
+            "Check-up packages"
+        ],
+        "responses": [
+            "We offer various health check-up packages. You can view the details on our website or visit the hospital.",
+            "Our health packages include general and specialized check-ups. How can I assist further?"
+        ]
+    },
+    {
+        "tag": "insurance_claims",
+        "patterns": [
+            "How to claim insurance?",
+            "Do you accept insurance?",
+            "Insurance processing"
+        ],
+        "responses": [
+            "Yes, we accept insurance. Please provide your insurance details at the reception for processing.",
+            "For insurance claims, our staff will assist you with the required documentation."
+        ]
+    },
+    {
+        "tag": "specialist_consultation",
+        "patterns": [
+            "Can I consult a specialist?",
+            "How to book a specialist?",
+            "Specialist availability"
+        ],
+        "responses": [
+            "Yes, we have specialists in various fields. Please let us know the specialty and preferred date for the appointment.",
+            "Specialists are available by appointment. Would you like to book one?"
+        ]
+    },
+    {
+        "tag": "dietary_services",
+        "patterns": [
+            "Do you have dietary services?",
+            "Can I consult a dietitian?",
+            "Dietary plans for patients"
+        ],
+        "responses": [
+            "Yes, we provide dietary consultations. Would you like to book an appointment with our dietitian?",
+            "Our dietary services include personalized plans for patients. How can I assist further?"
+        ]
+    },
+    
+      {
+        "tag": "appointment",
+        "patterns": ["I want to book an appointment", "Can I schedule a visit?", "How can I book a doctor's appointment?"],
+        "responses": ["Sure, I can help with that. Which doctor would you like to see?", "Let me assist you in booking an appointment. Please provide the date and time."]
+      },
+      {
+        "tag": "doctor_query",
+        "patterns": ["What are the timings of Dr. Smith?", "Is Dr. John available?", "Doctor availability"],
+        "responses": ["Dr. Smith is available from 10 AM to 2 PM on weekdays.", "Dr. John has appointments open in the afternoon."]
+      },
+      {
+        "tag": "emergency",
+        "patterns": ["This is an emergency", "I need immediate help", "Emergency contact"],
+        "responses": ["Please call the emergency hotline at 123-456-7890 immediately.", "For emergencies, please visit the ER or call our hotline."]
+      },
+      {
+        "tag": "hospital_info",
+        "patterns": ["What are your hours?", "Where is the hospital located?", "Hospital address"],
+        "responses": ["We are open from 8 AM to 8 PM, Monday to Saturday.", "Our hospital is located at 123 Health Avenue, Cityville."]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services do you offer?", "What treatments are available?", "Do you have diagnostic services?"],
+        "responses": ["We offer general consultations, specialist care, diagnostics, and emergency services.", "Our services include pediatrics, orthopedics, cardiology, and more."]
+      },
+      {
+        "tag": "health_tips",
+        "patterns": ["Give me some health tips", "How can I stay healthy?", "Wellness advice"],
+        "responses": ["Drink plenty of water and exercise regularly.", "Maintain a balanced diet and get enough sleep.", "Stay active and avoid stress."]
+      },
+      {
+        "tag": "medication_query",
+        "patterns": ["What is this medicine for?", "How should I take my medication?", "Can I stop taking my meds?"],
+        "responses": ["Please consult your doctor before making any changes to your medication.", "Always follow the prescribed dosage. Contact your doctor for detailed advice."]
+      }
+]
