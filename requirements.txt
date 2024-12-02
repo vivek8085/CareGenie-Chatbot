@@ -1,4 +1,3 @@
-Python Libraries like
 nltk
 streamlit
 scikit-learn
