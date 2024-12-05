@@ -3,12 +3,12 @@ This is AI Chatbot for Hospital Management built by using NLP.
 Project Features
 ---
 ## Core Features:
-Patient Interaction: CareGenie interacts with patients to answer questions related to hospital services, doctor availability, appointment booking, medical record queries, and more.
-Appointment Scheduling: The chatbot assists patients in scheduling or rescheduling appointments with doctors based on their availability.
-Medical Information: Patients can ask CareGenie about medical services, treatment options, and doctor specialties.
-Query Resolution: CareGenie answers general queries such as operating hours, hospital directions, and provides health tips.
-Conversation History: All user interactions with the chatbot are logged for reference and can be reviewed later.
-Data-Driven Responses: CareGenie leverages a machine learning model trained on labeled intents and entities, ensuring accurate and context-aware responses.
+-Patient Interaction: CareGenie interacts with patients to answer questions related to hospital services, doctor availability, appointment booking, medical record queries, and more.
+-Appointment Scheduling: The chatbot assists patients in scheduling or rescheduling appointments with doctors based on their availability.
+-Medical Information: Patients can ask CareGenie about medical services, treatment options, and doctor specialties.
+-Query Resolution: CareGenie answers general queries such as operating hours, hospital directions, and provides health tips.
+-Conversation History: All user interactions with the chatbot are logged for reference and can be reviewed later.
+-Data-Driven Responses: CareGenie leverages a machine learning model trained on labeled intents and entities, ensuring accurate and context-aware responses.
 ---
 ## Technology Stack:
 Natural Language Processing (NLP): The chatbot uses NLP techniques such as tokenization and TF-IDF for text vectorization to understand and classify user queries.
