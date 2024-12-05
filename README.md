@@ -13,7 +13,7 @@ Project Features
 ---
 ## Technology Stack
 - Natural Language Processing (NLP): The chatbot uses NLP techniques such as tokenization and TF-IDF for text vectorization to understand and classify user queries.
-Machine Learning: A Logistic Regression classifier is employed to predict the appropriate response based on the user input, which is matched to predefined intents.
+- Machine Learning: A Logistic Regression classifier is employed to predict the appropriate response based on the user input, which is matched to predefined intents.
 - Streamlit: A web-based interface is developed using Streamlit, making it easy for users to interact with the chatbot and for hospital administrators to view conversation histories.
 - Python Libraries: Key libraries such as nltk, scikit-learn, and streamlit are used to build, train, and deploy the chatbot.
 ---
